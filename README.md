@@ -18,9 +18,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This is a general template for any Python project you want to start working on.
-
-Here you can add 1-2 paragraphs on information about the project
+This is a pig dice game built as part of a project for the course Methods of Sustainable Development
 
 ## 👨‍💻 Description <a name = "description"></a>
 
@@ -30,7 +28,14 @@ This is a pig dice game played between two players, the user and the computer.
 
 ### Installing
 
-Here you can add a description on how to install the project
+Install the PIP packages that are dependencies to the project and/or the development environment. The dependencies are documented in the requirements.txt.
+Do not forget to check that you have an active venv.
+
+# Do install them
+make install
+
+# Check what is installed
+make installed
 
 ### Usage
 
@@ -41,9 +46,9 @@ Clicking the role button will allow the user roll the dice up until the user eit
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-Here you can link the packages/modules/dependencies used to build your project
+Visual Studio Code
 
 ## ✍️ Authors <a name = "authors"></a>
 
-Solomon Woldetensay
+Solomon Woldetensay and
 Okeke David Tobechukwu
