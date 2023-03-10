@@ -1,7 +1,7 @@
 <h1 align="left">python-template</h1>
 
 <p align="left">
-  This is a dice game project played between the user and the computer
+  Here you should add general information about the project
   <br> 
 </p>
 
@@ -13,42 +13,48 @@
 - [🏁 Getting Started ](#-getting-started-)
   - [Installing](#installing)
   - [Usage](#usage)
-- [⛏️ Built Using ](#️-built-using-)
 - [✍️ Authors ](#️-authors-)
 
 ## 🧐 About <a name = "about"></a>
 
-This is a pig dice game built as part of a project for the course Methods of Sustainable Development
+With this program, you have the opportunity to play a game of dice with an AI opponent. The levels available are categorized as simple, moderate and arduous for your preference. Before being granted access to the scoreboard summary screen after launching it up, inputting your name is necessary.
+
+As you play the game, the dice will be rolled in alternating turns. The sum of each roll adds to your score during that particular round. You have two options: either hold onto your current points and let the AI take over or continue rolling for an opportunity at a higher tally. However, if you happen to land on a 1, then all points acquired from that turn are lost instantaneously as it signals an end to any further rolls within said turn.
+
+The match will persist until either party has accumulated a sum of 100 points or surpasses that number. Should you achieve victory, accolades shall be bestowed upon your conquest!
+
+If you want to start another round, there are two options that await - either restart the game or simply exit. Take pleasure in your decision!
 
 ## 👨‍💻 Description <a name = "description"></a>
 
-This is a pig dice game played between two players, the user and the computer.
+The class dedicated to games involves a dice game, where participants take turns rolling the die and earning points based on their results. The objective is for someone to reach or exceed 100 points before concluding the game. By invoking the method labeled play_game, this initiates gameplay while taking into account a difficulty parameter that identifies what number rolls would be considered as ones by each level of complexity; intricate levels having lesser values assigned in comparison with simpler counterparts. Additionally, there exists an option within the class allowing instantaneous victory accessible through using cheat codes if desired.
+
+The games2 course is an additional game that functions using text, and it pits the player against a computer to determine who can reach a set score first. The gameplay consists of rolling dice and adding up scores while competing with another opponent. This continues until one person reaches their predetermined top point limit. To initialize the game, there's a technique called 'game_play' which chooses difficulty levels based on users’ preferences for maximum scoring per turn parameterization needs during playtime sessions.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 ### Installing
 
-Install the PIP packages that are dependencies to the project and/or the development environment. The dependencies are documented in the requirements.txt.
-Do not forget to check that you have an active venv.
+Install Python: If you don't have Python already installed on your computer, go to https://www.python.org/downloads/ and download the version that is compatible with your system. Follow the installation instructions provided by the installer.
 
-# Do install them
-make install
+Create a new Python project in your IDE: Open your favorite Integrated Development Environment (IDE) and create a new Python project
 
-# Check what is installed
-make installed
+Download the game files: Provide them with a link to download the game files or attach the files in an email.
+
+Extract the files: Instruct them to extract the files from the downloaded folder to a location of their choice.
+
+Run the main file: Instruct them to navigate to the extracted folder and double-click on the main file to run the game.
+
+Play the game: Once the game is launched, they can follow the on-screen instructions to play the game.
+
+Make sure to provide them with any additional information or requirements they may need to run the game, such as the version of Python needed or any dependencies required.
 
 ### Usage
 
-To run the game, the user simply has to press the run button on he's or her computer. It is a pig dice game. The game starts off by asking the user to imput he's or her name and then the game begins. The user is then asked if he or she would like to roll a dice, stop playing, hold he's or her current score, win early, or leave the game. Depending on the user's choice a sequence or actions take place. 
+In the initial block of code, there are two distinct categories - Die and games. The former being a class that consists solely of one function, roll(). This single method generates an arbitrary integer within the range 1 through 6 when called upon. Games on the other hand is designed for multiple players to engage in rolling dice together. Within this category lies three functions: __init__, play_game, and scoreboard creator.The first mentioned function initializes all aspects necessary to begin gameplay such as creating participants (players), setting up Dice instances for each player,and establishing a scoreboard to keep track of progress throughout the game's duration.Next comes into play,the ‘play_game’ procedure – which acts as our primary gaming loop until someone reaches or surpasses 100 points mark.Finally,a new winner will be declared at endgame based off total score achieved during said rounds played thus far by any given participant .
 
-Clicking the role button will allow the user roll the dice up until the user either rolls a 1 or chooses to hold the turn score. The sum of the numbers rolled is then added up. The aim of the game is to reach a total score of 50 before the computer does. Clicking the hold button will allow the user to hold he's or her turn score, protecting it in the case the user should roll a 1 in he's next turn. Clicking this button allows you to protect your turn score after which the computer begins to play. Clicking the win button allows to user to cheat and gives the user the opportunity to win early. This button instantly awards the user 40 points meaning the user needs just 10 points to win the game and finally clicking the exit button allows the user to leave the game.
-
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-Visual Studio Code
+Within the subsequent set of code, there exists a solitary class named games2. This game is designed for singular players and entails competing against an AI opponent. Upon instantiation within the __init__ method, Die comes into play as well. Through utilization of name in tandem with user input collection capabilities, users are able to interactively provide their own distinct names which can then be returned later on during gameplay if necessary or desired by means unavailable through any other channels outside this particular function's scope alone. The progression of gameplay itself is categorized based upon varying levels of difficulty that end up dictating what maximum scores will ultimately result from each individual turn taken throughout said stages; all skills implemented therein such as rolling dice between both human player(s) and computer-based challengers operate under these conditions until either contender successfully accumulates 100 total points individually before one another signaling conclusion beyond doubt towards respective victors!
 
 ## ✍️ Authors <a name = "authors"></a>
 
-Solomon Woldetensay and
-Okeke David Tobechukwu
+- [Robel] [Brian] - Idea & Initial work
